@@ -3,7 +3,9 @@
 [Spider](https://yale-lily.github.io/spider) is a large-scale semantic parsing and text-to-SQL dataset. We parse schema SQL files from the development set and retrieve join paths between primary keys and foreign keys as ground truth.
 
 ## Resources
-`dev_metadata.csv` contains the ground truth of join paths.
+`data.zip` contains raw tables in the CSV format.
+
+`dev_metadata.csv` annotates the ground truth of join paths.
 
 `data_loader.py` provides functionalities to load tables and metadata.
 
