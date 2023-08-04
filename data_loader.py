@@ -83,6 +83,6 @@ if __name__ == "__main__":
     """
     Test Spider dataloader
     """
-    dataset_dir = "/data/spider_artifact/csv_extended/"
-    metadata_path = "/data/spider_artifact/dev_join_data_extended.csv"
+    dataset_dir = "/data/spider_artifact/tables"
+    metadata_path = "/data/spider_artifact/dev_metadata.csv"
     dataloader = SpiderCSVDataLoader(dataset_dir, metadata_path)
